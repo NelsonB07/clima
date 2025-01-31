@@ -3,20 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Clima</title>
 </head>
 <body>
-    <main>
-        <input type="text" name="text" id="text">
-        <input type="submit" value="Buscar">
-        <h2>Cidade</h2>
-        <h1>Brasília</h1>
-        <p>Umidade <br>
-            20%
-        </p>
-        <p>Vento <br>
-            3 km/h
-        </p>
+    <main id="container">
+        <div>
+            <input type="text" name="text" id="text" class="texto" placeholder="Digite o nome da Cidade...">
+            <input type="submit" value="Buscar" class="botao">
+        </div>
+        <h2 class="titulo2">Cidade</h2>
+        <h1 class="titulo1">Brasília</h1>
+        <hr>
+            <div class="paragrafos-container">
+                <p class="marcador1">
+                    Umidade <br>
+                    <strong>20%</strong>
+                </p>
+                <p class="marcador2">
+                    Vento <br>
+                    <strong>3 km/h</strong>
+                </p>
+            </div>
     </main>
 </body>
 </html>

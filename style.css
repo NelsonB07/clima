@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+html , body {
+    margin: 0px;
+    padding: 0px;
+    box-shadow: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(fundo2-clima.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    text-align: center;
+    padding: 50px;
+    margin: 100px 400px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+.texto {
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    text-align: center;
+}
+
+.botao {
+    background-color: green;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    padding: 8px 20px;
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.paragrafos-container {
+    display: flex;
+    justify-content: space-between; 
+    width: 60%; 
+}
+
+.titulo1 {
+    margin-top: 1px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+hr {
+    width: 99%;
+}
+
+.titulo2 {
+    margin-top: 40px;
+    color: white;
+}
+
+.marcador1, .marcador2 {
+    border: 1px solid rgba(0, 0, 0, 0.678);
+    border-radius: 5px;
+    padding: 10px;
+    width: 65px;
+    margin: 10px;
+    margin-top: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.555);
+}
